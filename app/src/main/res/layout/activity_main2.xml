@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@drawable/icono">
 
     <TextView
         android:id="@+id/superior"
         android:layout_width="170dp"
         android:layout_height="30dp"
         android:text="Número guardado:"
+        android:background="#E91E63"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -32,6 +34,8 @@
         android:layout_height="50dp"
         android:text="Enviar coordenadas"
         android:textSize="30dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:textAlignment="center"
         app:layout_constraintTop_toBottomOf="@id/superior"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +61,7 @@
         android:id="@+id/imageView"
         android:layout_width="238dp"
         android:layout_height="238dp"
-        app:srcCompat="@drawable/img"
+        app:srcCompat="@drawable/wait"
         app:layout_constraintTop_toBottomOf="@id/coordenadasTextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
